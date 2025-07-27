@@ -4,7 +4,7 @@
     "parameters": {
         "virtualMachineSize": {
             "type": "string",
-            "defaultValue": "Standard_D2d_v4",
+            "defaultValue": "Standard_D8d_v4",
             "metadata": {
                 "description": "Virtual machine size"
             }
