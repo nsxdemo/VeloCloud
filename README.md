@@ -20,4 +20,4 @@ See "VMware SDWAN Azure Virtual Edge Deployment Guide" for overview and usage: h
 
 \
 \
-[Customized template with 2 LAN interfaces (NIC)](https://github.com/nsxdemo/VeloCloud/blob/main/ARM%20template%20with%202%20LAN%20interfaces%2007142025.json)  
+[Customized template with 2 LAN interfaces (NIC)](https://github.com/nsxdemo/VeloCloud/blob/main/ARM%20template%20with%202%20LAN%20interfaces%20072025.json)  
