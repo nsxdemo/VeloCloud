@@ -18,5 +18,6 @@ This ARM Template is intended for use with Azure regions that DO NOT SUPPORT AVA
 See: https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/#geographies  
 See "VMware SDWAN Azure Virtual Edge Deployment Guide" for overview and usage: https://docs.vmware.com/en/VMware-SD-WAN/services/sd-wan-azure-virtual-edge-deployment-guide/GUID-0D85B0E1-01A6-4F62-9440-9FCC6A87561F.html  
 
-
+\
+\
 [Customized template with 2 LAN interfaces (NIC)](https://github.com/nsxdemo/VeloCloud/blob/main/ARM%20template%20with%202%20LAN%20interfaces%2007142025.json)  
