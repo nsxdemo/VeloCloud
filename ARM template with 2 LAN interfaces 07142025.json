@@ -85,7 +85,7 @@
         },
         "PublicSubnetName": {
             "type": "string",
-            "defaultValue": "Public_SN",
+            "defaultValue": "WAN",
             "metadata": {
               "description": "Public Subnet Name for Edge WAN Interface within vNET"
             }
@@ -99,7 +99,7 @@
         },
         "PrivateSubnetName": {
             "type": "string",
-            "defaultValue": "Private_SN",
+            "defaultValue": "LAN01",
             "metadata": {
               "description": "Private Subnet Name for Edge LAN Interface witin vNET"
             }
@@ -120,7 +120,7 @@
         },
         "PrivateSubnetName2": {
             "type": "string",
-            "defaultValue": "Private_SN2",
+            "defaultValue": "LAN02",
             "metadata": {
               "description": "Private Subnet Name for Edge LAN Interface witin vNET"
             }
@@ -159,9 +159,9 @@
         "PrivateSubnetSpace2": "[parameters('PrivateSubnet2')]",
         "PrivateSubnetStartAddress": "[parameters('EdgeGE2LANIP')]",
         "PrivateSubnetStartAddress2": "[parameters('EdgeGE3LANIP')]",
-        "routeTablePublic": "[concat(parameters('vNetName'),'-PUB-RT')]",
-        "routeTablePrivate": "[concat(parameters('vNetName'),'-PRI-RT')]",
-        "routeTablePrivate2": "[concat(parameters('vNetName'),'-PRI2-RT')]",
+        "routeTablePublic": "[concat(parameters('vNetName'),'-WAN-RT')]",
+        "routeTablePrivate": "[concat(parameters('vNetName'),'-LAN01-RT')]",
+        "routeTablePrivate2": "[concat(parameters('vNetName'),'-LAN02-RT')]",
         "subnet1Ref": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnet1Name'))]",
         "subnet2Ref": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnet2Name'))]",
         "subnet3Ref": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnet3Name'))]",
